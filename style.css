@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+section {
+    background: url(../img/b1.jpg);
+}
+
+#h1{
+    background: #666 url(../img/h1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+} 
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 1 ;
+}
+
+.menubar {
+    width: 100%;
+    height: 55px;
+    background: rgb(255, 177, 8);
+    box-shadow: 0 0 10px #666; 
+    position: relative;
+}
+
+.menubar .logo {
+    float: left;
+    margin : 0 ;
+    padding: 0;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.dropbtn {
+    background-color: rgb(255, 177, 8);
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 4px ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #dfac07;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #885d00;
+}
+
+.div1{
+    /* background-color: black; */
+    height: 500px;
+    width: 100%;
+}
+
+ .header {
+    /* background: #666 url(../img/bg.jpg) ; */
+    
+    
+    width: 100%;
+    height: 500px;
+}
+
+.header_area {
+    padding-top: 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0 ;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+/*
+.info1 {
+    width: 100%;
+    height: 400px;
+}
+.info1_area {
+    color: #333;
+}
+.info1_area img {
+    margin-top: 80px;
+    float: left;
+}
+.info1_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.info1_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.info2 {
+    width: 100%;
+    height: 350px;
+    background: #333;
+}
+.info2_area {
+    color: #333;
+}
+.info2_area img {
+    margin-top: 48px;
+    float: left;
+    margin-left: 40px;
+}
+.info2_text {
+    text-align: center;
+    width: 460px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 140px;
+    color: #fff;
+}
+.info2_area h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.contact {
+    width: 100%;
+    height: 515px;
+}
+
+.contact_area h1 {
+    font-weight: normal;
+}
+.contact_area input {
+    margin: 10px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area textarea {
+    margin: 10px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area button {
+    padding: 10px;
+    width: 90px;
+    background: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.contact_area button:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+} */
+
+ footer {
+    background: #666 url(../img/f1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+footer p {
+    margin: 0 0 0 0 ;
+} 
+
+.site-calendar-demo-card {
+  width: 500px;
+  height: 100px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  background-color: #666;
+}
